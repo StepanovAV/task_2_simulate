@@ -3,7 +3,7 @@ task №2 with simulating epidemic algorithm, please before using read DOCUMENTA
 
     how to run simulate.py from console:
     20 - number of nodes
-    1000 - number of packets
+    10000 - number of packets
     with_queue, with_choice - my algorithms
 
     C:\Users\..\Folder>python simulate.py 20 10000
