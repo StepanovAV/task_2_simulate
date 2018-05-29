@@ -5,11 +5,8 @@ import sys
 
 def my_сhoice_sample(selectList, x, *argv):
     node = argv[-1]
-    result = []
-    for i in range(node, node+x):
-        index = node + i
-        index = index % len(selectList)
-        result.append(selectList[index])
+    index = node*2
+    result = selectList[index:index+x]
     return result
 
 
