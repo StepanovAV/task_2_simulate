@@ -58,7 +58,7 @@ def run_epidemic(x, n, i, *argv):
     start = time.time()
     count_success = 0
     count_iteration = 0
-    nodes = list(i for i in range(n))
+    nodes = list(range(n))
     algo = send_packet
     sample = random_sample
     if 'with_queue' in argv:
